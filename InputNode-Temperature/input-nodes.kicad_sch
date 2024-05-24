@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6c29cd97-0244-4eb2-8824-411c3c4117e7")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 22.86 25.4)
+		(size 49.53 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ceb46f9-95dc-4ed0-8e31-194926d39ede")
+		(property "Sheetname" "Temperature Node"
+			(at 22.86 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Temperature Node.kicad_sch"
+			(at 22.86 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "input-nodes"
+				(path "/6c29cd97-0244-4eb2-8824-411c3c4117e7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 25.4)
+		(size 49.53 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6e113371-4d94-49e7-95ab-1deddc30790b")
+		(property "Sheetname" "Camera Node"
+			(at 83.82 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 83.82 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "input-nodes"
+				(path "/6c29cd97-0244-4eb2-8824-411c3c4117e7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
